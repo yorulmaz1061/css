@@ -1,0 +1,21 @@
+.box1{
+    background-color: red;;
+
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: greenyellow;
+}
+.box4{
+    background-color: orange;
+}
+.container div{
+    width: 70px;
+    height: 70px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
