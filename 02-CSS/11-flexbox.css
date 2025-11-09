@@ -1,21 +1,27 @@
 .box1{
-    background-color: red;;
+    background-color: red;
+    flex:1 0 100px
+    /* buyu (1) ama kuculme (0) default 100 px, bundan fazla kuculme  */
 
 }
 .box2{
     background-color: blueviolet;
+    flex:1 0 100px
 }
 .box3{
     background-color: greenyellow;
+    flex: 3 1 100px;
 }
 .box4{
     background-color: orange;
-}
-.container div{
-    width: 70px;
-    height: 70px;
+    flex: 1 1 100px;
 }
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    height: 50vh;
+    gap: 1rem;
 }

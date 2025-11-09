@@ -1,0 +1,158 @@
+/* 5-font u ekledikten sonra html'ye geri donelim, 6 orada */
+body{
+    font-family:"Montserrat", sans-serif;
+    /* icteki elemanlari kenarlardan uzaklastirdik */
+    padding: 2rem;
+
+}
+/* x3 inputlar icin geldik */
+.form-row{
+    margin-bottom: 1rem; /* alt kisimla arasina bosluk ekledik */
+
+
+}
+label{
+    display: block; /* alt satira gecmesi icin */
+}
+textarea,input{
+width: 100%; /* genisliklerini %100 yaptik */
+padding: 0.5rem;
+border-radius: 0.5rem;
+border: 1px solid gray;
+
+
+}
+form{
+    width: 100%; /* formun genisligini %100 yaptik */
+
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    background-color: rgb(171, 125, 202);
+    font-size: 1.2rem;
+    /* contact.css bitti */
+}
+
+/* 7- Header bolumu(ust kisim): */
+header{
+    display: flex; /* title kismiyla nav kismini yanyana getirdik */
+    flex-direction: row; /* gorunur olsun diye yazildi, default olrak row zaten */
+    justify-content: space-between; /* title ksimi ile nav kismini basa ve sona aldik */
+    align-items: center; /* dikeyde ayni hizaya aldik */
+    background-color: rgb(171, 125, 202);
+    border-radius: 5rem;
+    padding: 1rem 2rem;/* ustten alttan 1rem, sagdan soldan 2 rem */
+    flex-wrap: wrap; /* ekran kuculurse alt satira gecmesi icin */
+
+}
+/* 8-Ozan ile Web Developer i yanyana getirelim */
+header .title{
+    display: flex;
+    flex-direction: row; /* yanyana dizmek icin */
+    align-items: center; /* dikeyde ortalamak icin */
+    gap: 1rem; /* elemanlar arasina bosluk ekledik */
+}
+/* 9- h 'lerin otomatik marjini vardir, kaldiralim, bosluklari biz belirleyelim */
+header .title h2{
+    margin: 0; /* ustten alttan sagdan soldan marjinleri kaldirdik */
+}
+/* 10- yuvarlak ekleyelim */
+/* a3 */
+main h1 span, header .title span{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(227, 154, 102);
+    border-radius: 50%; /* tam yuvarlak yapmak icin */
+    display: inline-block; /* block gibi davranmasi icin */
+}
+/* 11- nav kismina calisilacak */
+header nav a{
+    text-decoration: none; /* alt cizgiyi kaldirdik */
+    color: rgb(239, 200, 139);
+    font-weight: bold;
+}
+/* 12-linkllerin uzerine gelince renkelr degissin */
+header nav a:hover{
+ color: bisque;   
+}
+/* 13-body'i olusturmak icin HTML'ye gidelim, 14 orada */
+
+/* Body kisminin Main bolumu */
+/* 16-a */
+main{
+    padding: 5rem 20%; /* resmi ve yazilari uzaklastirdik. Ustten ve alttan 5rem, usttem ve alttan 20% */
+}
+/* 16-b */
+main .home{
+    display: flex;
+    align-items: center; /* dikeyde ortalamak icin */
+    gap: 2rem; /* elemanlar arasina bosluk ekledik */
+
+}
+/* 16-c resmi kucultelim */
+main .profile img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* resmi yuvarlak yapmak icin */
+    border: 0.5rem solid rgb(227, 154, 102); 
+   
+}
+/* 16-d */
+main .button a{
+    background-color: rgb(171, 125, 202);
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 5rem;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 3px 3px 5px black; /* yatay-dikey-bulaniklik-renk */
+    margin-right: 1rem; /* sagdan bosluk */
+}
+/* 16-e */
+main .button a:hover{
+    background-color: rgb(227, 154, 102);
+    color: black;
+}
+/* footer i olusturmak icin html ye gidelim 18 orada */
+/* 20-)Footer bolumu */
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    flex-wrap: wrap;
+}
+/* index.html bitti */
+/* a4-yuvarlak ve resume */
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+/* a5 card la ilgili calisalim */
+main .card{
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   border: 1px solid black;
+   border-radius: 2rem;
+   padding: 2rem;
+   box-shadow: 3px 3px 7px black;
+   margin-bottom: 2rem;
+   overflow: hidden; /* icindeki elemanlarin disari tasmasini engeller */
+
+}
+main section{
+    margin-bottom: 4rem;
+
+}
+/* a-6 ilk card bitti, hmtl ye git a7 orada */
+
+
+
+
+ 
+
